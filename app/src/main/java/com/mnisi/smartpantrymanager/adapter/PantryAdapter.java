@@ -14,7 +14,7 @@ import com.mnisi.smartpantrymanager.database.PantryDatabase;
 import com.mnisi.smartpantrymanager.model.PantryItem;
 import java.util.List;
 import java.util.concurrent.Executors;
-
+// RecyclerView adapter for pantry list - manages item display
 public class PantryAdapter extends RecyclerView.Adapter<PantryAdapter.ViewHolder> {
     private List<PantryItem> list;
     private PantryDatabase db;
