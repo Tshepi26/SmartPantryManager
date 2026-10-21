@@ -4,7 +4,7 @@ import com.mnisi.smartpantrymanager.database.PantryDatabase;
 import com.mnisi.smartpantrymanager.model.Recipe;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+//RecioeSeeder waste reduction recipes based on pantry items
 public class RecipeSeeder {
     public static void seed(PantryDatabase db) {
         ExecutorService executor = Executors.newSingleThreadExecutor();
