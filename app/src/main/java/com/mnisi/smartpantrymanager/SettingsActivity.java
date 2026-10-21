@@ -6,6 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
+//Settings with notification
 
 public class SettingsActivity extends AppCompatActivity {
 
