@@ -19,6 +19,7 @@ public class PantryAdapter extends RecyclerView.Adapter<PantryAdapter.ViewHolder
     private List<PantryItem> list;
     private PantryDatabase db;
     //Recycleview for display
+    //setup
 
     public PantryAdapter(List<PantryItem> list, PantryDatabase db) {
         this.list = list;
