@@ -11,6 +11,7 @@ import java.util.List;
 @Dao
 public interface PantryDao {
     @Insert
+    //Add pantry item
     void insert(PantryItem item); // CREATE
 
     @Query("SELECT * FROM pantry_items ORDER BY id DESC")
