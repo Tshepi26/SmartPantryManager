@@ -8,7 +8,6 @@ import java.util.List;
 
 @Dao
 public interface RecipeDao {
-
     @Insert
     void insert(Recipe recipe);
 
@@ -17,4 +16,7 @@ public interface RecipeDao {
 
     @Query("SELECT COUNT(*) FROM recipes")
     int getCount();
+
+    @Query("DELETE FROM recipes")
+    void deleteAll();
 }
